@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<img src="~/images/hehuanroad.jpg" class="fixed-image" alt="合歡北峰" asp-append-version="true" />
+<section class="background-img">
+    <div class="filter"></div>
+    <h3>旅行的過程，總是讓我感到新奇。</h3>
+</section>
+<section class="info-circle">
+    <h3>台灣的美</h3>
+    <div class="circles">
+        <div class="circle">
+            <img src="~/images/cisingtan.jpg" alt="七星潭" asp-append-version="true"/>
+            <p>七星潭</p>
+        </div>
+        <div class="circle">
+            <img src="~/images/hehuansunrise.jpg" alt="合歡山日出" />
+            <p>合歡山日出</p>
+        </div>
+        <div class="circle">
+            <img src="~/images/angletear.jpg" alt="天使的眼淚" />
+            <p>天使的眼淚</p>
+        </div>
+        <div class="circle">
+            <img src="~/images/cliff.jpg" alt="清水斷崖" />
+            <p>清水斷崖</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="empty-container">
+    <h3>就從今天開始愛上台灣吧。</h3>
+</section>
+<section class="aboutme" id="self">
+    <h3>我的介紹</h3>
+    <p>我是Bob，一位喜歡到處走走的台灣人，目前正在轉職成為軟體工程師，喜歡旅遊、爬山還有攝影，這個網站記錄著我曾經去過的地方，以及把美麗的事物都用相機給捕捉起來。</p>
+
+</section>
+<footer>
+    <section class="logo1">
+        <img src="./images/checkbox1.svg" alt="checkbox">
+        <h3>台灣旅遊相關資訊</h3>
+    </section>
+    <section class="links">
+        <a href="https://www.facebook.com/timefortaiwan101/"><img src="./Icons/facebook.svg" alt="facebook"></a>
+        <a href="https://www.instagram.com/taiwan/"><img src="./Icons/instagram.svg" alt="instagram"></a>
+        <a href="https://www.google.com.tw/"><img src="./Icons/google.svg" alt="taiwansearch"></a>
+        <a href="https://www.youtube.com/channel/UCYLYBjgRZCeArwSJXpi36JA"><img src="./Icons/youtube.svg" alt="youtube"></a>
+    </section>
+</footer>
+
+@section Scripts
+{
+    <script>
+        $(document).ready(function () {
+            setInterval(() => {
+                let topBackground = $("section.background-img");
+                let currentBg = topBackground.css("background-image");
+
+                if (currentBg.includes("CiSingTanWave.jpg")) {
+                    topBackground.css("background-image", 'url("./images/HehuanNorthSunrise.jpg")');
+                } else if (currentBg.includes("HehuanNorthSunrise.jpg")) {
+                    topBackground.css("background-image", 'url("./images/Angletear.jpg")');
+                } else {
+                    topBackground.css("background-image", 'url("./images/CiSingTanWave.jpg")');
+                }
+            }, 5000);
+        });
+            
+
+    </script>
+}
