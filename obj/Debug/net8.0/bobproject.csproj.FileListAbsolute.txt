@@ -575,3 +575,7 @@ C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\refint\bobproject.dll
 C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\bobproject.pdb
 C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\bobproject.genruntimeconfig.cache
 C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\ref\bobproject.dll
+C:\Users\A\Documents\baimanWeb\bin\Debug\net8.0\bobproject.staticwebassets.endpoints.json
+C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\staticwebassets\msbuild.bobproject.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\A\Documents\baimanWeb\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

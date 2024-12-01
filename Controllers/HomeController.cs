@@ -18,11 +18,15 @@ namespace bobproject.Controllers
             return View();
         }
 
-        public IActionResult Motor()
+        public IActionResult Travel()
         {
             return View();
         }
         public IActionResult Write()
+        {
+            return View();
+        }
+        public IActionResult Introduction()
         {
             return View();
         }
