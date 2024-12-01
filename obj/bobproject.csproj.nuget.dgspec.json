@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\A\\source\\repos\\bobproject\\bobproject\\bobproject.csproj": {}
+    "C:\\Users\\A\\Documents\\baimanWeb\\bobproject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\A\\source\\repos\\bobproject\\bobproject\\bobproject.csproj": {
+    "C:\\Users\\A\\Documents\\baimanWeb\\bobproject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\A\\source\\repos\\bobproject\\bobproject\\bobproject.csproj",
+        "projectUniqueName": "C:\\Users\\A\\Documents\\baimanWeb\\bobproject.csproj",
         "projectName": "bobproject",
-        "projectPath": "C:\\Users\\A\\source\\repos\\bobproject\\bobproject\\bobproject.csproj",
+        "projectPath": "C:\\Users\\A\\Documents\\baimanWeb\\bobproject.csproj",
         "packagesPath": "C:\\Users\\A\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\A\\source\\repos\\bobproject\\bobproject\\obj\\",
+        "outputPath": "C:\\Users\\A\\Documents\\baimanWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,7 +100,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
